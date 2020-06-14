@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "twitch-tools",
+  "version": "1.0",
+  "description": "Browser extension with tools for Twitch.tv",
+  "content_scripts": [
+    {
+      "matches": ["*://www.twitch.tv/*"],
+      "js": ["channel-points.js"]
+    }
+  ]
+}
