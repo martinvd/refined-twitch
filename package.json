@@ -7,6 +7,6 @@
     "start": "web-ext run"
   },
   "webExt": {
-		"sourceDir": "dist"
-	}
+    "sourceDir": "dist"
+  }
 }
