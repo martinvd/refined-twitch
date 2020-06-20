@@ -6,7 +6,8 @@
   "content_scripts": [
     {
       "matches": ["*://www.twitch.tv/*"],
-      "js": ["channel-points.js"]
+      "js": ["channel-points.js"],
+      "run_at": "document_start"
     }
   ]
 }
