@@ -1,4 +1,4 @@
-# twitch-tools
+# refined-twitch
 
 > Browser extension that extends the experience on Twitch.tv
 
