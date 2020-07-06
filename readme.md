@@ -5,3 +5,4 @@
 ## Features
 
 - Automatically collect channel points
+- More features might be added...
