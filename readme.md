@@ -4,7 +4,7 @@
 
 ## Features
 
-- Automatically collect channel points
+- Automatically collects channel points
 - More features might be added...
 
 Tested on Chrome and Firefox.
