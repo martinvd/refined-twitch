@@ -1,6 +1,6 @@
 # refined-twitch
 
-> Browser extension that extends the experience on Twitch.tv
+> Browser extension that adds useful features to Twitch.tv
 
 ## Features
 
