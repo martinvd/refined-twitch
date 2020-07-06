@@ -1,12 +1,3 @@
 {
-  "private": true,
-  "devDependencies": {
-    "web-ext": "^4.2.0"
-  },
-  "scripts": {
-    "start": "web-ext run"
-  },
-  "webExt": {
-    "sourceDir": "dist"
-  }
+  "private": true
 }
