@@ -4,7 +4,7 @@
 
 ## Features
 
-- Automatically open channel point boxes
+- Automatically collects bonus channel points
 - More features might be added...
 
 Tested on Chrome and Firefox.
