@@ -7,4 +7,4 @@
 - Automatically collects bonus channel points
 - More features might be added...
 
-Works on Chrome and Firefox.
+Tested on Chrome and Firefox.
