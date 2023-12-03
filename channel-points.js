@@ -1,13 +1,13 @@
-(function() {
+(function () {
   function logNothingToCollect() {
-    console.log('no channel points to collect.');
+    console.log("no channel points to collect.");
   }
 
   function simulateClick(element) {
-    var clickEvent = new MouseEvent('click', {
+    var clickEvent = new MouseEvent("click", {
       bubbles: true,
       cancelable: true,
-      view: window
+      view: window,
     });
 
     element.dispatchEvent(clickEvent);
@@ -15,23 +15,23 @@
 
   function collectChannelPoints(button) {
     simulateClick(button);
-    console.log('points collected.');
+    console.log("points collected.");
   }
 
   function monitorChannelPoints() {
-    console.log('monitoring channel points...');
+    console.log("monitoring channel points...");
 
-    var interval = setInterval(function() {
-      console.log('checking channel points...');
+    var interval = setInterval(function () {
+      console.log("checking channel points...");
 
-      var pointsSummary = document.querySelector('.community-points-summary');
+      var pointsSummary = document.querySelector(".community-points-summary");
 
       if (!pointsSummary) {
         logNothingToCollect();
         return;
       }
 
-      var buttons = pointsSummary.querySelectorAll('button');
+      var buttons = pointsSummary.querySelectorAll("button");
 
       if (buttons.length !== 2) {
         logNothingToCollect();
@@ -49,7 +49,7 @@
     monitorChannelPoints();
   }
 
-  document.addEventListener("DOMContentLoaded", function() {
+  document.addEventListener("DOMContentLoaded", function () {
     onDOMContentLoaded();
   });
 })();
